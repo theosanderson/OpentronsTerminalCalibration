@@ -8,7 +8,7 @@ def getEquipment():
         equipment['trash']=containers.load('point', "C1","trash")
         equipment['p200rack'] = containers.load('tiprack-200ul', 'E2', 'tiprack200')
         equipment['p1000rack'] = containers.load('tiprack-1000ul', 'A1', 'tiprack1000')
-        equipment['TubMedia']=containers.load('epmotion30', "D1","TubMedia")
+        equipment['TubMedia']=containers.load('point', "D1","TubMedia")
 
 
         #PIPETTE(S)
