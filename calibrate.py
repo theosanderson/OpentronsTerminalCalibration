@@ -140,7 +140,7 @@ def main(stdscr):
         stdscr.addstr("Numbers 1-8 - choose how far to move\n")
         stdscr.addstr("Arrow keys - move forwards/back/left/right\n")
         stdscr.addstr("Control + arrow keys - move up/down\n\n")
-        stdscr.addstr("V - switch to calibrate this pipettes plunger/volume\n\n")
+        stdscr.addstr("V - switch to calibrate this pipette's plunger/volume\n\n")
         stdscr.addstr("Currently pipette: ")
         
         stdscr.addstr(str(currentPipette)+"\n",curses.A_STANDOUT)
