@@ -57,7 +57,6 @@ def main(stdscr):
            currentPipette=pipetteNames[int(s)-1]
            curses.noecho()
            
-    # This raises ZeroDivisionError when i == 10.
     def calibratePlunger():
            plungerPos=0
            plungerTarget="top"
@@ -70,8 +69,8 @@ def main(stdscr):
                 stdscr.addstr("Keyboard shortcuts:\n\n")
                 stdscr.addstr("T - start calibrating the 'top' position\n")
                 stdscr.addstr("B - start calibrating the 'bottom' position\n")
-                stdscr.addstr("O - start calibrating the 'blowout' position\n")
-                stdscr.addstr("E - start calibrating the 'eject' position\n\n")
+                stdscr.addstr("O - start calibrating the 'blow_out' position\n")
+                stdscr.addstr("E - start calibrating the 'drop_tip' (eject) position\n\n")
                 stdscr.addstr("Numbers 1-8 - choose how far to move\n")
                 stdscr.addstr("Arrow keys - move plunger up/down\n")
                 stdscr.addstr("S - save this position\n")
